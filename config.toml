@@ -1,6 +1,7 @@
 baseURL = "http://camilogarcialarotta.github.io/"
 languageCode = "en-us"
 title = "Personal Site"
+publishDir = "camilogarcialarotta.github.io"
 
 [permalinks]
 blog = "/:filename/"

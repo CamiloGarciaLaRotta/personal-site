@@ -11,14 +11,14 @@
   <meta name="description" content="Personal website with programming projects and contact information">
   <meta name="theme-color" content="#c5c5c5">
   {{ .Hugo.Generator }}
-  <link rel="icon" type="image/png" href="{{ "img/favicon.png" | absURL }}" sizes="32x32" />
-  <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
+  <link rel="icon" type="image/png" href="{{ "img/favicon.png" | relURL }}" sizes="32x32" />
+  <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
 </head>
 
 <body>
   <header>
     <a href="/" title="home">
-      <img src="{{ "img/logo.png" | absURL }}" class="logo" alt="Personal logo">
+      <img src="{{ "img/logo.png" | relURL }}" class="logo" alt="Personal logo">
     </a>
     <a href="/" title="home" class="name">
       <div>
@@ -38,19 +38,19 @@
       <li>
         <a href="https://www.github.com/CamiloGarciaLaRotta" title="GitHub" role="listitem"
           aria-roledescription="GitHub profile">
-          <img src="{{ "img/github.svg" | absURL }}" class="small_icon" alt="GitHub">
+          <img src="{{ "img/github.svg" | relURL }}" class="small_icon" alt="GitHub">
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/camilo-garcia-la-rotta" title="LinkedIn" role="listitem"
           aria-roledescription="LinkedIn profile">
-          <img src="{{ "img/linkedin.svg" | absURL }}" class="small_icon" alt="LinkedIn">
+          <img src="{{ "img/linkedin.svg" | relURL }}" class="small_icon" alt="LinkedIn">
         </a>
       </li>
       <li>
         <a href="mailto:camilo.garcia.larotta@gmail.com" title="Contact me" role="listitem"
           aria-roledescription="Personal email">
-          <img src="{{ "img/email.svg" | absURL }}" class="small_icon" alt="Contact me">
+          <img src="{{ "img/email.svg" | relURL }}" class="small_icon" alt="Contact me">
         </a>
       </li>
     </ul>
