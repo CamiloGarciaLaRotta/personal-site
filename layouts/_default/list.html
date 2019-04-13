@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<ul class="three-grid" role="list" aria-roledescription="Blog Articles">
+
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <li class="project_box" role="listitem" aria-roledescription="Article">
+    <center>
+      <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+        <img src="{{ "img/tack.png" | absURL }}" class="icon" alt="Tack Logo">
+        <p>{{ .Title }}</p>
+      </a>
+      {{ partial "date-and-tags.html" . }}
+    </center>
+  </li>
+  {{ end }}
+
+</ul>
+
+{{ end }}

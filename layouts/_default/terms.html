@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<ul class="three-grid" role="list" aria-roledescription="Blog Tags">
+
+  {{ $type := .Type }}
+  {{ range $key, $value := .Data.Terms.ByCount }}
+  {{ $name := .Name }}
+  {{ $count := .Count }}
+  {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+  <li class="project_box" role="listitem" aria-roledescription="Tag">
+    <center>
+
+      <a href="{{ .RelPermalink }}" title="{{ $name }}">
+        <img src="{{ "img/tack.png" | absURL }}" class="icon" alt="Tack Logo" />
+        <p class="meta link">{{ $name }} ({{ $count }})</p>
+      </a>
+    </center>
+
+  </li>
+
+  {{ end }}
+  {{ end }}
+</ul>
+{{ end }}

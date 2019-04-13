@@ -1,0 +1,14 @@
+baseURL = "http://camilogarcialarotta.github.io/"
+languageCode = "en-us"
+title = "Personal Site"
+
+[permalinks]
+blog = "/:filename/"
+
+[params]
+dateFormat = "Jan 2, 2006"
+author = "Camilo Garcia La Rotta"
+position = "Software Engineering Undergrad"
+
+[taxonomies]
+tag = "tags"

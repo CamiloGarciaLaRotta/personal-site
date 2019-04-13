@@ -1,0 +1,10 @@
+{{ define "main"  }}
+
+
+{{ partial "date-and-tags" . }}
+
+<div class="blog">
+  <h1 class="blog-title">{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+{{ end }}
