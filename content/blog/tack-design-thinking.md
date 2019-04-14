@@ -6,18 +6,17 @@ draft: false
 story: false
 ---
 
-The concept of a job application tracking helper came about for the semester project for ECSE 428 at McGill University.
-The purpose of the class being applying learned SW Engineering methodologies and CS concepts to design and implement a product.
-Because groups were made of 15 students, the basic idea of a helped got expanded to accomodate extra features.
-We ended up with a web app (with auth & inhouse job applications) and a Chrome Extension helper.  
+The concept of a job application tracking helper came up for the semester project for ECSE 428 at McGill University.The purpose of the class is to apply learned SW Engineering methodologies and CS concepts to design and implement a product.  
 
-There was no rigorous process to understand completely the issue trying to be solved.
-But I believe we hit not so far from a good target.
-Hence, I want to go back to understanding the users & framing the problems they encounter while job hunting.
+Because groups were made of 15 students, the basic idea of a helper got expanded to accomodate extra features.We ended up with a web app (with auth & inhouse job applications) and a Chrome Extension helper.  
+
+There was no rigorous process to understand the issue trying to be solved.
+But I believe we did not hit so far from the target.
+Hence, I want to go back to understanding the users, as well as framing the problems they encounter while job hunting.
 I want to then strip down the existent system from any unecessary components, in order to have just a
-standalone (no server required) web extension which addresses some of thecore problems of job hunting.
+standalone (no server required) browser extension which addresses some of the core problems of application tracking.
 
-I take this opportunity to also put into practice a concept I was introduced to lately: Design Thinking.
+I take this opportunity to also put into practice a concept I was introduced to lately: [Design Thinking](https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf).  
 This is by no means a discussion about its pros/cons. But rather a chance to use a tested approach 
 to define a real problem and subsequently define an appropriate solution.
 
@@ -201,6 +200,4 @@ If to many bemols come up during the testing phase related to the code itself I 
 # TODO
 - pass MVP iteration plans from paper to Gist
 
-
-PS Here is a good resource on [Design Thinking](https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf) 
 
