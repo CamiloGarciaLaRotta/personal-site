@@ -1,5 +1,5 @@
 ---
-title: "On How To Land An Airplane"
+title: "How To Land An Airplane"
 date: 2017-03-04T21:43:24-04:00
 tags: ["short-story"]
 draft: false
