@@ -3,6 +3,7 @@ title: "Tack Design Thinking"
 date: 2019-04-13T11:16:28-04:00
 tags: ["brainstorming"]
 draft: false
+story: false
 ---
 
 The concept of a job application tracking helper came about for the semester project for ECSE 428 at McGill University.

@@ -10,7 +10,7 @@
   <meta name="author" content="Camilo Garcia La Rotta">
   <meta name="description" content="Personal website with programming projects and contact information">
   <meta name="theme-color" content="#c5c5c5">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   <link rel="icon" type="image/png" href="{{ "img/favicon.png" | relURL }}" sizes="32x32" />
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
 </head>
@@ -20,13 +20,13 @@
     <a href="/" title="home">
       <img src="{{ "img/logo.png" | relURL }}" class="logo" alt="Personal logo">
     </a>
-    <a href="/" title="home" class="name">
-      <div>
+    <div class="name">
+      <a href="/" title="home">
         <h1>{{ .Site.Params.Author }}</h1>
         <h2>{{ .Site.Params.Position }}</h2>
-        {{ if not .IsHome }}<h3>{{ .Title }}</h3>{{ end }}
-      </div>
-    </a>
+      </a>
+      {{ if not .IsHome }}<h3>{{ .Title }}</h3>{{ end }}
+    </div>
   </header>
   <hr class="top_hr">
   <main>
