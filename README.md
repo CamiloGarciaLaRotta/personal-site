@@ -7,17 +7,14 @@ It uses [Hugo](https://gohugo.io/) **without** any themes. Just vanilla CSS.
 It is a responsive website thanks to CSS Grids.  
 It also aims to be accesible thanks to semantic HTML and [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes.  
 
-
 Hugo generates the code inside `publishDir = "camilogarcialarotta.github.io"`.  
 The directory `camilogarcialarotta.github.io` is a git submodule pointing to the GitHub repo with the same name.  
 
 The workflow is:
 - Add content in the `personal-site` repo
 - Generate the code inside the `camilogarcialarotta.github.io` directory using the command `hugo`
+- Stage changes in the submodule and in the main repo 
 - Push changes to both GitHub repos using `git push --recurse-submodules=on-demand`
-
-
-
 
 ```bash
 personal-site
