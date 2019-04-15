@@ -12,7 +12,7 @@ María la de los ojos color canela,
 Lleva la mirada baja porque se le murió su abuela.  
 
 Camina con pasos lentos,  
-Porque ya no hay prisa  
+Porque ya no hay prisa.  
 A traves de aquellos eucaliptos  
 Que de pequeña le daban pa’ la gripa.  
 

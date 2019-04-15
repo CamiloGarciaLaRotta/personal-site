@@ -8,20 +8,20 @@ story: true
 
 ### Euforia is
 
-To float in open waters  
-Drifting with the curl  
+To float in open waters.  
+Drifting with the curl,  
 Smoothly sandwiched  
-Between sea and sun  
+Between sea and sun.  
 
-To jump onto a creek  
-Not able to see you own feet  
+To jump onto a creek,  
+Not able to see you own feet.  
 The midnight water and skin  
-Not two, but one  
+Not two, but one.  
 
-To run under Summer rain  
-Soaked down to the bones  
+To run under Summer rain,  
+Soaked down to the bones.  
 Sweet vivid heavy drops  
-Pouring down like champagne  
+Pouring down like champagne.  
 
 
 

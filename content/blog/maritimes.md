@@ -11,9 +11,9 @@ story: true
 Survive a drive through a starry obsidian night  
 And you might wake up to a fiery ruby light.  
 
-Warth will brighten up the lonely rock,  
+Warmth will brighten up the lonely rock,  
 That wind and sea have cut off from this world.  
-Leave your blood at the salty stone dock  
+Leave your blood at the salty stone dock,  
 Then clear your wounds on its icy water pond.  
 
 Your wild animals will push you forth;  
@@ -21,7 +21,7 @@ Pop your head out of the car’s window like a dog;
 Smile! Go North!  
 
 Muddy shores with pirate coves,  
-Mini-golf  scores over magnetic hills.  
+Mini-golf scores over magnetic hills.  
 No time is wasted, when the only way to go is up ahead.  
 
 But when the forgotten storm  
