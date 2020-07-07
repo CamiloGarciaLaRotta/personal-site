@@ -9,7 +9,7 @@ blog = "/:filename/"
 [params]
 dateFormat = "Jan 2, 2006"
 author = "Camilo Garcia La Rotta"
-position = "Software Engineering Undergrad"
+motto = "Go, Ruby, Typescript and cheap poetry"
 
 [taxonomies]
 tag = "tags"
