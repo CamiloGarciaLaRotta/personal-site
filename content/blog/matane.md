@@ -14,4 +14,4 @@ The windows cracks open and the wind gushes in
 flooding the car with a salty mist.  
 We've been driving since dusk  
 and we know we won't be able to continue for long,  
-but that's ok.Nobody said Matane would be easy to reach.
+but that's ok. Nobody said Matane would be easy to reach.

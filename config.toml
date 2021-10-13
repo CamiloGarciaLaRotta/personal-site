@@ -4,7 +4,8 @@ title = "Personal Site"
 publishDir = "camilogarcialarotta.github.io"
 
 [permalinks]
-blog = "/:filename/"
+blog = "/blog/:filename/"
+kivu = "/kivu/:filename/"
 
 [params]
 dateFormat = "Jan 2, 2006"
